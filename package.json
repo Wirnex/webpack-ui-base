@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --history-api-fallback --hot --inline --progress",
-    "build": "webpack --config webpack.build.js --bail -p --progress"
+    "build:prod": "webpack --config webpack.build.js --bail -p --progress --verbose",
+    "build:dev": "webpack --config webpack.config.js --bail -p --progress --verbose",
+    "run:dist": "node spa-server.js"
   },
   "author": "",
   "license": "ISC",
@@ -35,6 +37,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "html-webpack-plugin": "^2.28.0",
     "raw-loader": "^0.5.1",
+    "spa-server": "^1.0.0",
     "webpack": "^2.6.0",
     "webpack-dev-server": "^2.4.5"
   },

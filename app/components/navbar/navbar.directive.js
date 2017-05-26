@@ -7,9 +7,9 @@ function navbar() {
             name: '='
         },
         template: require('./navbar.html'),
-        controller: ($state, $scope) => {
+        controller: ['$state', '$scope', ($state, $scope) => {
             $scope.$state = $state;
-        },
+        }],
     }
 }
 
