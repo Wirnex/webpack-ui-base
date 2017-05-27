@@ -1,4 +1,4 @@
-import 'jquery/dist/jquery.min.js';
+import 'jquery';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
