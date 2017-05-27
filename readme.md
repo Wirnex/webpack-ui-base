@@ -15,7 +15,7 @@ Start webserver http://127.0.0.1:8080
 
 ### Build development to dist folder
 ```bash
-npm run build:prod
+npm run build:dev
 ```
 
 ### Build production to dist folder
