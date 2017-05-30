@@ -40,6 +40,7 @@
     "raw-loader": "^0.5.1",
     "spa-server": "^1.0.0",
     "uglifyjs-webpack-plugin": "^0.4.3",
+    "uglify-js": "2.8.23",
     "webpack": "^2.6.0",
     "webpack-dev-server": "^2.4.5"
   },
